@@ -34,14 +34,14 @@ This repository contains the codebase to procedurally generate all 8 SYNCR bench
 
 ```
 SYNCR/
-├── generate_data.py              # Unified data generation script for all 7 tasks
+├── generate_data.py              # Unified data generation script for all 8 tasks
 ├── DATA_GENERATION_GUIDE.md      # Comprehensive guide with all task specifications
 ├── README.md                     # This file
 ├── utils.py                      # Shared utilities
 ├── clevrer/                      # CLEVRER engine tasks
 │   ├── base_clevrer.py
 │   ├── clvr_temporal_alignment.py       # Task: Sequential ordering (Temporal Alignment)
-│   ├── clvr_comparative_reasoning.py    # Task: Kinematic & collision comparison (Comparative Reasoning)
+│   ├── clvr_comparative_reasoning.py    # Task: Kinematic & Numerical comparison (Comparative Reasoning)
 │   └── utils.py
 ├── kubric/                       # Kubric engine tasks
 │   ├── base_kubric.py
