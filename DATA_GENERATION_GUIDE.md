@@ -4,7 +4,7 @@ This guide explains how to use the unified `generate_data.py` script to generate
 
 ## Overview
 
-The `generate_data.py` script consolidates all data generation arguments into a single entry point, supporting all 7 SYNCR benchmark tasks organized across 4 cognitive pillars:
+The `generate_data.py` script consolidates all data generation arguments into a single entry point, supporting all 8 SYNCR benchmark tasks organized across 4 cognitive pillars:
 
 - **Temporal Alignment**: Sequential ordering and multi-angle synchronization
 - **Spatial Tracking**: Spatial measurement and object re-identification
