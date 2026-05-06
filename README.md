@@ -15,11 +15,6 @@ Unlike existing multi-video benchmarks that rely on human-annotated real-world f
 
 Multimodal Large Language Models (MLLMs) have demonstrated strong capabilities in single-video understanding, yet cross-video reasoning remains largely underexplored. Existing multi-video benchmarks primarily rely on human-annotated, real-world footage, which introduces annotator ambiguity and lacks absolute physical and spatial ground truth, complicating the diagnosis of model failures. To address this, we introduce **SYNCR**, a synthetic diagnostic benchmark designed to systematically evaluate MLLMs across independent, overlapping video streams. Leveraging three simulation engines (CLEVRER, Kubric, and Habitat), SYNCR decomposes multi-video understanding into four programmatically verified cognitive pillars: **Temporal Alignment**, **Spatial Tracking**, **Comparative Reasoning**, and **Holistic Synthesis**. 
 
-Our comprehensive zero-shot evaluation of state-of-the-art models reveals significant limitations in current architectures; the best-performing model achieves 52.5% accuracy, well below the 98.0% human baseline. Our analysis yields three key findings: 
-1. While parameter scaling improves macro-semantic capabilities, performance on micro-physical tracking and strict spatial navigation plateaus.
-2. Most of SYNCR's tasks exhibit strong sim-to-real predictive validity (Pearson $r$ up to 0.99) against existing real-world benchmarks.
-3. The application of current text-centric Chain-of-Thought (CoT) reasoning consistently degrades performance on dynamic cross-video synthesis tasks.
-
 ## 🏛 The Four Cognitive Pillars
 
 SYNCR decomposes cross-video understanding into four foundational diagnostic pillars:
